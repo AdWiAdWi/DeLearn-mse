@@ -1,0 +1,29 @@
+
+3.6%
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+
+
+
+
+
+
+
+
+
+
+93.2%
+Extracting .\MNIST\raw\train-images-idx3-ubyte.gz to .\MNIST\raw
+
+100.0%
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to .\MNIST\raw\train-labels-idx1-ubyte.gz
+Extracting .\MNIST\raw\train-labels-idx1-ubyte.gz to .\MNIST\raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to .\MNIST\raw\t10k-images-idx3-ubyte.gz
+102.8%
+
+100.0%
+Extracting .\MNIST\raw\t10k-images-idx3-ubyte.gz to .\MNIST\raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to .\MNIST\raw\t10k-labels-idx1-ubyte.gz
+Extracting .\MNIST\raw\t10k-labels-idx1-ubyte.gz to .\MNIST\raw
+112.7%

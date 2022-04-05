@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-04-05T12:44:02.336539",
+    "startedAt": "2022-04-05T12:43:52.049993",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1050",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\adria\\AppData\\Roaming\\jupyter\\runtime\\kernel-278d78b9-bf4e-4f4f-b309-02bb44461d9e.json"
+    ],
+    "state": "running",
+    "program": "Practical Work 05/PW05_optimisers_FashionMNIST_group04.ipynb",
+    "root": "C:/Users/adria/OneDrive/Dokumente/Studium - Hslu/Master/TSM_DeLearn",
+    "git": {
+        "remote": "https://github.com/AdWiAdWi/DeLearn-mse.git",
+        "commit": "69f99b2e4a4723405615682c420f51b5d50581c9"
+    },
+    "email": "adrian_willi@outlook.com",
+    "host": "DESKTOP-RL9BU71",
+    "username": "adria",
+    "executable": "C:\\Users\\adria\\OneDrive\\Dokumente\\Studium - Hslu\\Master\\TSM_DeLearn\\venv\\Scripts\\python.exe"
+}
