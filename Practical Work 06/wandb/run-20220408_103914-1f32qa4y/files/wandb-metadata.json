@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-04-08T08:39:24.917274",
+    "startedAt": "2022-04-08T08:39:14.791660",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1050",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\adria\\AppData\\Roaming\\jupyter\\runtime\\kernel-8ce7fdb0-ae70-40c3-9c32-17a8a311de19.json"
+    ],
+    "state": "running",
+    "program": "Practical Work 06/Exercise 3 - CNN on CIFAR10.ipynb",
+    "root": "C:/Users/adria/OneDrive/Dokumente/Studium - Hslu/Master/TSM_DeLearn",
+    "git": {
+        "remote": "https://github.com/AdWiAdWi/DeLearn-mse.git",
+        "commit": "267eb7c8bce908c1e1162ae0bd8c1a065c016a48"
+    },
+    "email": "adrian_willi@outlook.com",
+    "host": "DESKTOP-RL9BU71",
+    "username": "adria",
+    "executable": "C:\\Users\\adria\\OneDrive\\Dokumente\\Studium - Hslu\\Master\\TSM_DeLearn\\venv\\Scripts\\python.exe"
+}

@@ -1,0 +1,67 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.11
+    framework: keras
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.9.7
+    start_time: 1649435498
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      2:
+      - 2
+      - 3
+      - 5
+      3:
+      - 3
+      - 8
+      - 16
+      - 19
+      4: 3.9.7
+      5: 0.12.11
+      8:
+      - 1
+      - 3
+      - 5
+activation:
+  desc: null
+  value: relu
+architecture:
+  desc: null
+  value: CNN
+batch_size:
+  desc: null
+  value: 32
+dataset:
+  desc: null
+  value: CIFAR-10
+epochs:
+  desc: null
+  value: 30
+filters:
+  desc: null
+  value:
+  - 32
+  - 64
+  - 128
+  - 256
+  - 512
+  - 512
+initializer:
+  desc: null
+  value: he_normal
+kernel:
+  desc: null
+  value: 3
+learning_rate:
+  desc: null
+  value: 0.0005
+loss_function:
+  desc: null
+  value: categorical_crossentropy

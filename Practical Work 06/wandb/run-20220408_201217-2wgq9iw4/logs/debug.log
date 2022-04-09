@@ -1,0 +1,44 @@
+2022-04-08 20:12:17,742 INFO    MainThread:17744 [wandb_setup.py:_flush():75] Loading settings from C:\Users\adria\.config\wandb\settings
+2022-04-08 20:12:17,742 INFO    MainThread:17744 [wandb_setup.py:_flush():75] Loading settings from C:\Users\adria\OneDrive\Dokumente\Studium - Hslu\Master\TSM_DeLearn\Practical Work 06\wandb\settings
+2022-04-08 20:12:17,742 INFO    MainThread:17744 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-04-08 20:12:17,742 INFO    MainThread:17744 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-04-08 20:12:17,743 INFO    MainThread:17744 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\adria\OneDrive\Dokumente\Studium - Hslu\Master\TSM_DeLearn\Practical Work 06\wandb\run-20220408_201217-2wgq9iw4\logs\debug.log
+2022-04-08 20:12:17,745 INFO    MainThread:17744 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\adria\OneDrive\Dokumente\Studium - Hslu\Master\TSM_DeLearn\Practical Work 06\wandb\run-20220408_201217-2wgq9iw4\logs\debug-internal.log
+2022-04-08 20:12:17,745 INFO    MainThread:17744 [wandb_init.py:_jupyter_setup():355] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002454EB947C0>
+2022-04-08 20:12:17,746 INFO    MainThread:17744 [wandb_init.py:init():439] calling init triggers
+2022-04-08 20:12:17,746 INFO    MainThread:17744 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.005, 'epochs': 25, 'batch_size': 64, 'activation': 'relu', 'loss_function': 'categorical_crossentropy', 'architecture': 'CNN', 'dataset': 'CIFAR-10'}
+2022-04-08 20:12:17,746 INFO    MainThread:17744 [wandb_init.py:init():492] starting backend
+2022-04-08 20:12:17,746 INFO    MainThread:17744 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2022-04-08 20:12:17,748 INFO    MainThread:17744 [backend.py:ensure_launched():219] starting backend process...
+2022-04-08 20:12:17,857 INFO    MainThread:17744 [backend.py:ensure_launched():224] started backend process with pid: 19012
+2022-04-08 20:12:17,858 INFO    MainThread:17744 [wandb_init.py:init():501] backend started and connected
+2022-04-08 20:12:17,952 INFO    MainThread:17744 [wandb_run.py:_label_probe_notebook():947] probe notebook
+2022-04-08 20:12:17,955 INFO    MainThread:17744 [wandb_run.py:_label_probe_notebook():957] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-04-08 20:12:17,955 INFO    MainThread:17744 [wandb_init.py:init():565] updated telemetry
+2022-04-08 20:12:18,036 INFO    MainThread:17744 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-04-08 20:12:20,263 INFO    MainThread:17744 [wandb_run.py:_on_init():1759] communicating current version
+2022-04-08 20:12:20,418 INFO    MainThread:17744 [wandb_run.py:_on_init():1763] got version response upgrade_message: "wandb version 0.12.13 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-04-08 20:12:20,418 INFO    MainThread:17744 [wandb_init.py:init():625] starting run threads in backend
+2022-04-08 20:12:25,442 INFO    MainThread:17744 [wandb_run.py:_console_start():1733] atexit reg
+2022-04-08 20:12:25,444 INFO    MainThread:17744 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-04-08 20:12:25,445 INFO    MainThread:17744 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-04-08 20:12:25,452 INFO    MainThread:17744 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-04-08 20:12:25,452 INFO    MainThread:17744 [wandb_init.py:init():664] run started, returning control to user process
+2022-04-08 20:12:25,453 INFO    MainThread:17744 [wandb_config.py:__setitem__():153] config set activation = relu - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002454F797DF0>>
+2022-04-08 20:12:25,454 INFO    MainThread:17744 [wandb_run.py:_config_callback():992] config_cb activation relu None
+2022-04-08 20:12:25,454 INFO    MainThread:17744 [wandb_config.py:__setitem__():153] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002454F797DF0>>
+2022-04-08 20:12:25,455 INFO    MainThread:17744 [wandb_run.py:_config_callback():992] config_cb batch_size 32 None
+2022-04-08 20:12:25,455 INFO    MainThread:17744 [wandb_config.py:__setitem__():153] config set filters = [32, 64, 128, 256, 512, 512] - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002454F797DF0>>
+2022-04-08 20:12:25,456 INFO    MainThread:17744 [wandb_run.py:_config_callback():992] config_cb filters [32, 64, 128, 256, 512, 512] None
+2022-04-08 20:12:25,456 INFO    MainThread:17744 [wandb_config.py:__setitem__():153] config set initializer = he_normal - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002454F797DF0>>
+2022-04-08 20:12:25,456 INFO    MainThread:17744 [wandb_run.py:_config_callback():992] config_cb initializer he_normal None
+2022-04-08 20:12:25,457 INFO    MainThread:17744 [wandb_config.py:__setitem__():153] config set learning_rate = 0.0005 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002454F797DF0>>
+2022-04-08 20:12:25,457 INFO    MainThread:17744 [wandb_run.py:_config_callback():992] config_cb learning_rate 0.0005 None
+2022-04-08 20:12:25,457 INFO    MainThread:17744 [wandb_config.py:__setitem__():153] config set kernel = 3 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002454F797DF0>>
+2022-04-08 20:12:25,458 INFO    MainThread:17744 [wandb_run.py:_config_callback():992] config_cb kernel 3 None
+2022-04-08 20:12:25,458 INFO    MainThread:17744 [wandb_config.py:__setitem__():153] config set loss_function = categorical_crossentropy - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002454F797DF0>>
+2022-04-08 20:12:25,458 INFO    MainThread:17744 [wandb_run.py:_config_callback():992] config_cb loss_function categorical_crossentropy None
+2022-04-08 20:12:25,459 INFO    MainThread:17744 [wandb_config.py:__setitem__():153] config set epochs = 30 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002454F797DF0>>
+2022-04-08 20:12:25,459 INFO    MainThread:17744 [wandb_run.py:_config_callback():992] config_cb epochs 30 None
